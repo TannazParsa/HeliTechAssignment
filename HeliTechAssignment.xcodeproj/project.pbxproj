@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		421333B42C3006E200D4188E /* ListFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 421333B32C3006E200D4188E /* ListFeature */; };
+		421333B62C3006E200D4188E /* Models in Frameworks */ = {isa = PBXBuildFile; productRef = 421333B52C3006E200D4188E /* Models */; };
+		421333B82C3006E200D4188E /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 421333B72C3006E200D4188E /* Networking */; };
+		421333BA2C3006E200D4188E /* Service in Frameworks */ = {isa = PBXBuildFile; productRef = 421333B92C3006E200D4188E /* Service */; };
+		421333BC2C3006E200D4188E /* Utility in Frameworks */ = {isa = PBXBuildFile; productRef = 421333BB2C3006E200D4188E /* Utility */; };
+		424FED8A2C2FD669004F3102 /* HeliTechAssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424FED892C2FD669004F3102 /* HeliTechAssignmentApp.swift */; };
+		424FED8E2C2FD66A004F3102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 424FED8D2C2FD66A004F3102 /* Assets.xcassets */; };
+		424FED912C2FD66A004F3102 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 424FED902C2FD66A004F3102 /* Preview Assets.xcassets */; };
+		424FED9B2C2FD66A004F3102 /* HeliTechAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424FED9A2C2FD66A004F3102 /* HeliTechAssignmentTests.swift */; };
+		424FEDA52C2FD66A004F3102 /* HeliTechAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424FEDA42C2FD66A004F3102 /* HeliTechAssignmentUITests.swift */; };
+		424FEDA72C2FD66A004F3102 /* HeliTechAssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424FEDA62C2FD66A004F3102 /* HeliTechAssignmentUITestsLaunchTests.swift */; };
+		42AEAA552C32C589006A3249 /* ListFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 42AEAA542C32C589006A3249 /* ListFeature */; };
+		42AEAA572C32C589006A3249 /* MapFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 42AEAA562C32C589006A3249 /* MapFeature */; };
+		42AEAA592C32C589006A3249 /* Models in Frameworks */ = {isa = PBXBuildFile; productRef = 42AEAA582C32C589006A3249 /* Models */; };
+		42AEAA5B2C32C589006A3249 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 42AEAA5A2C32C589006A3249 /* Networking */; };
+		42AEAA5D2C32C589006A3249 /* Service in Frameworks */ = {isa = PBXBuildFile; productRef = 42AEAA5C2C32C589006A3249 /* Service */; };
+		42AEAA5F2C32C589006A3249 /* Utility in Frameworks */ = {isa = PBXBuildFile; productRef = 42AEAA5E2C32C589006A3249 /* Utility */; };
+		42B7BE052C32D4F7005DB5F4 /* DualActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B7BE042C32D4F7005DB5F4 /* DualActionButtonView.swift */; };
+		42FBF8F22C3033B00028EFCD /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FBF8F12C3033B00028EFCD /* AppView.swift */; };
+		42FBF8F42C3033F60028EFCD /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FBF8F32C3033F60028EFCD /* AppStore.swift */; };
+		B618726B2C320E12004CB990 /* MapFeature in Frameworks */ = {isa = PBXBuildFile; productRef = B618726A2C320E12004CB990 /* MapFeature */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		424FED972C2FD66A004F3102 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 424FED7E2C2FD669004F3102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 424FED852C2FD669004F3102;
+			remoteInfo = HeliTechAssignment;
+		};
+		424FEDA12C2FD66A004F3102 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 424FED7E2C2FD669004F3102 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 424FED852C2FD669004F3102;
+			remoteInfo = HeliTechAssignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		421333BD2C30096600D4188E /* Modules */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Modules; sourceTree = "<group>"; };
+		424FED862C2FD669004F3102 /* HeliTechAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeliTechAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		424FED892C2FD669004F3102 /* HeliTechAssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeliTechAssignmentApp.swift; sourceTree = "<group>"; };
+		424FED8D2C2FD66A004F3102 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		424FED902C2FD66A004F3102 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		424FED962C2FD66A004F3102 /* HeliTechAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeliTechAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		424FED9A2C2FD66A004F3102 /* HeliTechAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeliTechAssignmentTests.swift; sourceTree = "<group>"; };
+		424FEDA02C2FD66A004F3102 /* HeliTechAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeliTechAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		424FEDA42C2FD66A004F3102 /* HeliTechAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeliTechAssignmentUITests.swift; sourceTree = "<group>"; };
+		424FEDA62C2FD66A004F3102 /* HeliTechAssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeliTechAssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		42B7BE042C32D4F7005DB5F4 /* DualActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DualActionButtonView.swift; sourceTree = "<group>"; };
+		42FBF8F12C3033B00028EFCD /* AppView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		42FBF8F32C3033F60028EFCD /* AppStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		424FED832C2FD669004F3102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B618726B2C320E12004CB990 /* MapFeature in Frameworks */,
+				421333BA2C3006E200D4188E /* Service in Frameworks */,
+				421333BC2C3006E200D4188E /* Utility in Frameworks */,
+				421333B82C3006E200D4188E /* Networking in Frameworks */,
+				421333B62C3006E200D4188E /* Models in Frameworks */,
+				421333B42C3006E200D4188E /* ListFeature in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424FED932C2FD66A004F3102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AEAA592C32C589006A3249 /* Models in Frameworks */,
+				42AEAA572C32C589006A3249 /* MapFeature in Frameworks */,
+				42AEAA5B2C32C589006A3249 /* Networking in Frameworks */,
+				42AEAA5F2C32C589006A3249 /* Utility in Frameworks */,
+				42AEAA552C32C589006A3249 /* ListFeature in Frameworks */,
+				42AEAA5D2C32C589006A3249 /* Service in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424FED9D2C2FD66A004F3102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		424FED7D2C2FD669004F3102 = {
+			isa = PBXGroup;
+			children = (
+				421333BD2C30096600D4188E /* Modules */,
+				424FED882C2FD669004F3102 /* HeliTechAssignment */,
+				424FED992C2FD66A004F3102 /* HeliTechAssignmentTests */,
+				424FEDA32C2FD66A004F3102 /* HeliTechAssignmentUITests */,
+				424FED872C2FD669004F3102 /* Products */,
+				424FEDBC2C30045D004F3102 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		424FED872C2FD669004F3102 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				424FED862C2FD669004F3102 /* HeliTechAssignment.app */,
+				424FED962C2FD66A004F3102 /* HeliTechAssignmentTests.xctest */,
+				424FEDA02C2FD66A004F3102 /* HeliTechAssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		424FED882C2FD669004F3102 /* HeliTechAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				424FEDB62C2FD966004F3102 /* Views */,
+				424FED892C2FD669004F3102 /* HeliTechAssignmentApp.swift */,
+				424FED8D2C2FD66A004F3102 /* Assets.xcassets */,
+				424FED8F2C2FD66A004F3102 /* Preview Content */,
+			);
+			path = HeliTechAssignment;
+			sourceTree = "<group>";
+		};
+		424FED8F2C2FD66A004F3102 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				424FED902C2FD66A004F3102 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		424FED992C2FD66A004F3102 /* HeliTechAssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				424FED9A2C2FD66A004F3102 /* HeliTechAssignmentTests.swift */,
+			);
+			path = HeliTechAssignmentTests;
+			sourceTree = "<group>";
+		};
+		424FEDA32C2FD66A004F3102 /* HeliTechAssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				424FEDA42C2FD66A004F3102 /* HeliTechAssignmentUITests.swift */,
+				424FEDA62C2FD66A004F3102 /* HeliTechAssignmentUITestsLaunchTests.swift */,
+			);
+			path = HeliTechAssignmentUITests;
+			sourceTree = "<group>";
+		};
+		424FEDB62C2FD966004F3102 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				42FBF8F32C3033F60028EFCD /* AppStore.swift */,
+				42FBF8F12C3033B00028EFCD /* AppView.swift */,
+				42B7BE042C32D4F7005DB5F4 /* DualActionButtonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		424FEDBC2C30045D004F3102 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		424FED852C2FD669004F3102 /* HeliTechAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 424FEDAA2C2FD66A004F3102 /* Build configuration list for PBXNativeTarget "HeliTechAssignment" */;
+			buildPhases = (
+				424FED822C2FD669004F3102 /* Sources */,
+				424FED832C2FD669004F3102 /* Frameworks */,
+				424FED842C2FD669004F3102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeliTechAssignment;
+			packageProductDependencies = (
+				421333B32C3006E200D4188E /* ListFeature */,
+				421333B52C3006E200D4188E /* Models */,
+				421333B72C3006E200D4188E /* Networking */,
+				421333B92C3006E200D4188E /* Service */,
+				421333BB2C3006E200D4188E /* Utility */,
+				B618726A2C320E12004CB990 /* MapFeature */,
+			);
+			productName = HeliTechAssignment;
+			productReference = 424FED862C2FD669004F3102 /* HeliTechAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		424FED952C2FD66A004F3102 /* HeliTechAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 424FEDAD2C2FD66A004F3102 /* Build configuration list for PBXNativeTarget "HeliTechAssignmentTests" */;
+			buildPhases = (
+				424FED922C2FD66A004F3102 /* Sources */,
+				424FED932C2FD66A004F3102 /* Frameworks */,
+				424FED942C2FD66A004F3102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				424FED982C2FD66A004F3102 /* PBXTargetDependency */,
+			);
+			name = HeliTechAssignmentTests;
+			packageProductDependencies = (
+				42AEAA542C32C589006A3249 /* ListFeature */,
+				42AEAA562C32C589006A3249 /* MapFeature */,
+				42AEAA582C32C589006A3249 /* Models */,
+				42AEAA5A2C32C589006A3249 /* Networking */,
+				42AEAA5C2C32C589006A3249 /* Service */,
+				42AEAA5E2C32C589006A3249 /* Utility */,
+			);
+			productName = HeliTechAssignmentTests;
+			productReference = 424FED962C2FD66A004F3102 /* HeliTechAssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		424FED9F2C2FD66A004F3102 /* HeliTechAssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 424FEDB02C2FD66A004F3102 /* Build configuration list for PBXNativeTarget "HeliTechAssignmentUITests" */;
+			buildPhases = (
+				424FED9C2C2FD66A004F3102 /* Sources */,
+				424FED9D2C2FD66A004F3102 /* Frameworks */,
+				424FED9E2C2FD66A004F3102 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				424FEDA22C2FD66A004F3102 /* PBXTargetDependency */,
+			);
+			name = HeliTechAssignmentUITests;
+			productName = HeliTechAssignmentUITests;
+			productReference = 424FEDA02C2FD66A004F3102 /* HeliTechAssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		424FED7E2C2FD669004F3102 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					424FED852C2FD669004F3102 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					424FED952C2FD66A004F3102 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 424FED852C2FD669004F3102;
+					};
+					424FED9F2C2FD66A004F3102 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 424FED852C2FD669004F3102;
+					};
+				};
+			};
+			buildConfigurationList = 424FED812C2FD669004F3102 /* Build configuration list for PBXProject "HeliTechAssignment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 424FED7D2C2FD669004F3102;
+			packageReferences = (
+			);
+			productRefGroup = 424FED872C2FD669004F3102 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				424FED852C2FD669004F3102 /* HeliTechAssignment */,
+				424FED952C2FD66A004F3102 /* HeliTechAssignmentTests */,
+				424FED9F2C2FD66A004F3102 /* HeliTechAssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		424FED842C2FD669004F3102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				424FED912C2FD66A004F3102 /* Preview Assets.xcassets in Resources */,
+				424FED8E2C2FD66A004F3102 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424FED942C2FD66A004F3102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424FED9E2C2FD66A004F3102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		424FED822C2FD669004F3102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42B7BE052C32D4F7005DB5F4 /* DualActionButtonView.swift in Sources */,
+				424FED8A2C2FD669004F3102 /* HeliTechAssignmentApp.swift in Sources */,
+				42FBF8F22C3033B00028EFCD /* AppView.swift in Sources */,
+				42FBF8F42C3033F60028EFCD /* AppStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424FED922C2FD66A004F3102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				424FED9B2C2FD66A004F3102 /* HeliTechAssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424FED9C2C2FD66A004F3102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				424FEDA52C2FD66A004F3102 /* HeliTechAssignmentUITests.swift in Sources */,
+				424FEDA72C2FD66A004F3102 /* HeliTechAssignmentUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		424FED982C2FD66A004F3102 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 424FED852C2FD669004F3102 /* HeliTechAssignment */;
+			targetProxy = 424FED972C2FD66A004F3102 /* PBXContainerItemProxy */;
+		};
+		424FEDA22C2FD66A004F3102 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 424FED852C2FD669004F3102 /* HeliTechAssignment */;
+			targetProxy = 424FEDA12C2FD66A004F3102 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		424FEDA82C2FD66A004F3102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		424FEDA92C2FD66A004F3102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		424FEDAB2C2FD66A004F3102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HeliTechAssignment/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heliTechAssigment.app.HeliTechAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		424FEDAC2C2FD66A004F3102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HeliTechAssignment/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heliTechAssigment.app.HeliTechAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		424FEDAE2C2FD66A004F3102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heliTechAssigment.app.HeliTechAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeliTechAssignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeliTechAssignment";
+			};
+			name = Debug;
+		};
+		424FEDAF2C2FD66A004F3102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heliTechAssigment.app.HeliTechAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeliTechAssignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HeliTechAssignment";
+			};
+			name = Release;
+		};
+		424FEDB12C2FD66A004F3102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heliTechAssigment.app.HeliTechAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeliTechAssignment;
+			};
+			name = Debug;
+		};
+		424FEDB22C2FD66A004F3102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.heliTechAssigment.app.HeliTechAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeliTechAssignment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		424FED812C2FD669004F3102 /* Build configuration list for PBXProject "HeliTechAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				424FEDA82C2FD66A004F3102 /* Debug */,
+				424FEDA92C2FD66A004F3102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		424FEDAA2C2FD66A004F3102 /* Build configuration list for PBXNativeTarget "HeliTechAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				424FEDAB2C2FD66A004F3102 /* Debug */,
+				424FEDAC2C2FD66A004F3102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		424FEDAD2C2FD66A004F3102 /* Build configuration list for PBXNativeTarget "HeliTechAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				424FEDAE2C2FD66A004F3102 /* Debug */,
+				424FEDAF2C2FD66A004F3102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		424FEDB02C2FD66A004F3102 /* Build configuration list for PBXNativeTarget "HeliTechAssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				424FEDB12C2FD66A004F3102 /* Debug */,
+				424FEDB22C2FD66A004F3102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		421333B32C3006E200D4188E /* ListFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ListFeature;
+		};
+		421333B52C3006E200D4188E /* Models */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Models;
+		};
+		421333B72C3006E200D4188E /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Networking;
+		};
+		421333B92C3006E200D4188E /* Service */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Service;
+		};
+		421333BB2C3006E200D4188E /* Utility */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Utility;
+		};
+		42AEAA542C32C589006A3249 /* ListFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ListFeature;
+		};
+		42AEAA562C32C589006A3249 /* MapFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MapFeature;
+		};
+		42AEAA582C32C589006A3249 /* Models */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Models;
+		};
+		42AEAA5A2C32C589006A3249 /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Networking;
+		};
+		42AEAA5C2C32C589006A3249 /* Service */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Service;
+		};
+		42AEAA5E2C32C589006A3249 /* Utility */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Utility;
+		};
+		B618726A2C320E12004CB990 /* MapFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MapFeature;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 424FED7E2C2FD669004F3102 /* Project object */;
+}
