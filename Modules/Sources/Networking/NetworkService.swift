@@ -1,9 +1,3 @@
-//
-//  NetworkService.swift
-//
-//  Created by Parsa on 6/29/24.
-//
-
 import Combine
 import Foundation
 
@@ -32,9 +26,25 @@ extension Networking: NetworkProtocol {
 
         var request = URLRequest(url: url)
         request.httpMethod = endpoint.httpMethod
-        print(url)
+        print("Request URL: \(url)")
+
         return session.dataTaskPublisher(for: request)
-            .map(\.data)
+            .tryMap { result -> Data in
+                // Print the HTTP response status code and headers
+                if let httpResponse = result.response as? HTTPURLResponse {
+                    print("HTTP Status Code: \(httpResponse.statusCode)")
+                    print("HTTP Headers: \(httpResponse.allHeaderFields)")
+                }
+
+                // Print the raw response body
+                if let responseString = String(data: result.data, encoding: .utf8) {
+                    print("Raw response: \(responseString)")
+                } else {
+                    print("Failed to decode response as string")
+                }
+
+                return result.data
+            }
             .decode(type: T.self, decoder: decoder)
             .mapError { error -> NAError in
                 if let decodingError = error as? DecodingError {

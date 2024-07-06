@@ -22,7 +22,7 @@ public enum Endpoint {
         switch self {
         case .shifts(let date):
             let formattedDate = date.formatted(.iso8601)
-            return "\(baseURL)/shifts?filter%5Bdate%5D=\(formattedDate)"
+            return "\(baseURL)shifts?filter%5Bdate%5D=\(formattedDate)"
         }
     }
 

@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		421333B42C3006E200D4188E /* ListFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 421333B32C3006E200D4188E /* ListFeature */; };
-		421333B62C3006E200D4188E /* Models in Frameworks */ = {isa = PBXBuildFile; productRef = 421333B52C3006E200D4188E /* Models */; };
 		421333B82C3006E200D4188E /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 421333B72C3006E200D4188E /* Networking */; };
 		421333BA2C3006E200D4188E /* Service in Frameworks */ = {isa = PBXBuildFile; productRef = 421333B92C3006E200D4188E /* Service */; };
 		421333BC2C3006E200D4188E /* Utility in Frameworks */ = {isa = PBXBuildFile; productRef = 421333BB2C3006E200D4188E /* Utility */; };
+		4240A3D32C39294600674A52 /* Models in Frameworks */ = {isa = PBXBuildFile; productRef = 4240A3D22C39294600674A52 /* Models */; };
 		424FED8A2C2FD669004F3102 /* HeliTechAssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424FED892C2FD669004F3102 /* HeliTechAssignmentApp.swift */; };
 		424FED8E2C2FD66A004F3102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 424FED8D2C2FD66A004F3102 /* Assets.xcassets */; };
 		424FED912C2FD66A004F3102 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 424FED902C2FD66A004F3102 /* Preview Assets.xcassets */; };
@@ -68,11 +68,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4240A3D32C39294600674A52 /* Models in Frameworks */,
 				B618726B2C320E12004CB990 /* MapFeature in Frameworks */,
 				421333BA2C3006E200D4188E /* Service in Frameworks */,
 				421333BC2C3006E200D4188E /* Utility in Frameworks */,
 				421333B82C3006E200D4188E /* Networking in Frameworks */,
-				421333B62C3006E200D4188E /* Models in Frameworks */,
 				421333B42C3006E200D4188E /* ListFeature in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,11 +193,11 @@
 			name = HeliTechAssignment;
 			packageProductDependencies = (
 				421333B32C3006E200D4188E /* ListFeature */,
-				421333B52C3006E200D4188E /* Models */,
 				421333B72C3006E200D4188E /* Networking */,
 				421333B92C3006E200D4188E /* Service */,
 				421333BB2C3006E200D4188E /* Utility */,
 				B618726A2C320E12004CB990 /* MapFeature */,
+				4240A3D22C39294600674A52 /* Models */,
 			);
 			productName = HeliTechAssignment;
 			productReference = 424FED862C2FD669004F3102 /* HeliTechAssignment.app */;
@@ -660,10 +660,6 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = ListFeature;
 		};
-		421333B52C3006E200D4188E /* Models */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Models;
-		};
 		421333B72C3006E200D4188E /* Networking */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Networking;
@@ -675,6 +671,10 @@
 		421333BB2C3006E200D4188E /* Utility */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Utility;
+		};
+		4240A3D22C39294600674A52 /* Models */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Models;
 		};
 		42AEAA542C32C589006A3249 /* ListFeature */ = {
 			isa = XCSwiftPackageProductDependency;

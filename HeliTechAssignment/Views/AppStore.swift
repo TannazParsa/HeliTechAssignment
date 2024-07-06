@@ -42,7 +42,7 @@ public struct AppFeature: ReducerProtocol {
         /// Initial state setup.
         static let initial: Self = .init(
             path: [],
-            listState: .init(shifts: ShiftRes(data: []))
+            listState: .init(shifts: ShiftRes(data: [], count: 0))
         )
     }
 

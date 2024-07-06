@@ -86,17 +86,24 @@ public struct ListItem: SwiftUI.View {
 
 public extension ListItem {
     /// A model representing the data for a list item.
+    
+    
     struct Model {
         public let title, slug, price, shiftTime: String
         public let url: URL?
+        public let dateFormatter: DateFormatter = {
+                let formatter = DateFormatter()
+                formatter.dateFormat = "HH:mm"
+                return formatter
+            }()
 
         /// Initializes a new model from a `ShiftModel`.
         /// - Parameter post: The shift model containing data for the list item.
         public init(post: ShiftModel) {
             self.title = post.status
-            self.price = "\(post.earnings_per_hour.currency) \(post.earnings_per_hour.amount)"
+            self.price = post.earnings_per_hour
             self.slug = post.job.slug ?? ""
-            self.shiftTime = post.job.project?.client?.name ?? ""
+            self.shiftTime = "\(dateFormatter.string(from: post.startsAt)) - \(dateFormatter.string(from: post.endsAt))"
             self.url = post.job.project?.client?.links.flatMap { URL(string: $0.hero_image ?? "") }
         }
 
